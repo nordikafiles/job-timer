@@ -14,4 +14,5 @@ setInterval(function(){
 	console.log("Hours: " + Math.floor(time/3600/1000))
 	console.log("Minutes: " + Math.floor(time/60/1000%60))
 	console.log("Seconds: " + Math.floor(time/1000%60))
+        console.log("Total: $" + (time/3600/1000*12).toFixed(2));
 }, 1000);
